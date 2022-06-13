@@ -1,0 +1,45 @@
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  align-items: center;
+
+  .todo {
+    width: 100%;
+    background-color: #fff;
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 5px 0 5px 0;
+    box-shadow: -2px 0 5px -2px #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: #a2353b;
+    }
+
+    .todo-btns {
+      font-size: 1.2rem;
+      color: #37ba3d;
+      margin-right: 18px;
+      display: flex;
+
+      .bin,
+      .mark {
+        margin: 0 5px;
+      }
+    }
+  }
+
+  .line {
+    width: 50%;
+    height: 1px;
+    margin: 10px 0;
+    background-color: #fff;
+  }
+
+  .todo.done {
+    opacity: 0.5;
+  }
+}

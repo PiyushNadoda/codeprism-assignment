@@ -1,0 +1,23 @@
+@import url('./Components/styles/input.scss');
+@import url('./Components/styles/todos.scss');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  background-color: #d9d8d8;
+  display: grid;
+  place-items: center;
+
+  .todo-container {
+    background-color: #99887e;
+    height: 80vh;
+    width: 400px;
+    max-width: 90vw;
+    border-radius: 0 0 20px 20px;
+  }
+}
